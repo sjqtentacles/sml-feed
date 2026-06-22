@@ -1,0 +1,11 @@
+(* MLB for the sml-feed library: the vendored sml-xml core (which in turn pulls
+ * in its bundled sml-unicode) and sml-datetime, loaded first in dependency
+ * order, then the Feed facade.
+ *
+ * The dependency .mlb files are brought in WITHOUT a `local` wrapper so that
+ * consumers (the test suite, examples) can use Xml / DateTime alongside Feed. *)
+$(SML_LIB)/basis/basis.mlb
+../lib/github.com/sjqtentacles/sml-xml/src/xml.mlb
+../lib/github.com/sjqtentacles/sml-datetime/lib/github.com/sjqtentacles/sml-datetime/datetime.mlb
+feed.sig
+feed.sml

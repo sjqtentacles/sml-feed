@@ -1,0 +1,13 @@
+(* Test executable basis: the xml library (which pulls in the vendored
+   sml-unicode) plus the harness and runner. *)
+$(SML_LIB)/basis/basis.mlb
+../src/xml.mlb
+harness.sml
+support.sml
+test_roundtrip.sml
+test_escaping.sml
+test_namespaces.sml
+test_cdata_comments.sml
+test_findall.sml
+entry.sml
+main.sml

@@ -1,0 +1,8 @@
+(* Test executable basis: the feed library (which pulls in the vendored sml-xml
+ * + sml-unicode + sml-datetime) plus the harness, vectors and runner. *)
+$(SML_LIB)/basis/basis.mlb
+../src/feed.mlb
+harness.sml
+test.sml
+entry.sml
+main.sml
