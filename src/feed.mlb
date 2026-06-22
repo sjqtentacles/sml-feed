@@ -6,6 +6,6 @@
  * consumers (the test suite, examples) can use Xml / DateTime alongside Feed. *)
 $(SML_LIB)/basis/basis.mlb
 ../lib/github.com/sjqtentacles/sml-xml/src/xml.mlb
-../lib/github.com/sjqtentacles/sml-datetime/lib/github.com/sjqtentacles/sml-datetime/datetime.mlb
+../lib/github.com/sjqtentacles/sml-datetime/datetime.mlb
 feed.sig
 feed.sml

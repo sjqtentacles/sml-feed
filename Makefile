@@ -17,7 +17,7 @@ POLY       ?= poly
 BIN        := bin
 XMLDIR     := lib/github.com/sjqtentacles/sml-xml
 UNICODE    := $(XMLDIR)/lib/github.com/sjqtentacles/sml-unicode
-DTDIR      := lib/github.com/sjqtentacles/sml-datetime/lib/github.com/sjqtentacles/sml-datetime
+DTDIR      := lib/github.com/sjqtentacles/sml-datetime
 TEST_MLB   := test/test.mlb
 SRCS       := $(wildcard $(UNICODE)/*.sml $(UNICODE)/*.sig $(UNICODE)/*.mlb) \
               $(wildcard $(XMLDIR)/src/*.sml $(XMLDIR)/src/*.sig $(XMLDIR)/src/*.mlb) \
